@@ -1,1 +1,0 @@
-import Clazz from "./Class";
