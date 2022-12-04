@@ -1,6 +1,4 @@
 const path = require('path');
-// const CopyPlugin = require('copy-webpack-plugin');
-
 
 module.exports = {
 
@@ -49,17 +47,5 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, "dist"),
   },
-
-  //auto-generates output html file with link to script
-  // plugins: [
-    
-  // new CopyPlugin({
-  //     patterns: [
-  //         "app/src/index.html"
-  //     ],
-  // }),
-    
-  // ],
-
 
 }
