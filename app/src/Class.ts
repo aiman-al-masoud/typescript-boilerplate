@@ -1,14 +1,14 @@
-export default class Clazz{
+export default class Clazz {
 
-    static getCrap(){
+    static getCrap() {
         return 10000;
     }
 
-    sidekickFunc(){
+    sidekickFunc() {
         this.faultyFunc()
     }
 
-    faultyFunc(){
+    faultyFunc() {
         throw new Error('error!')
     }
 }
