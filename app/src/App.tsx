@@ -1,5 +1,5 @@
 import React, { Component, ReactNode } from "react"
-import Smily from "../res/smily.png"
+import Smily from "../res/smiley.png"
 
 export default class App extends Component<{}, {time : number, asyncTask : any}>{
 
