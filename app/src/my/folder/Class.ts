@@ -9,6 +9,6 @@ export default class Clazz {
     }
 
     faultyFunc() {
-        throw new Error('error!')
+        throw new Error('willful error because error error error!')
     }
 }
